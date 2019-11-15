@@ -15,4 +15,13 @@ public class ExtendedGreetingService implements GreetingService {
     public String greet() {
         return "Hello " + name + "!";
     }
+	
+/**
+ * Feature3 - JIRAID03 - New modelue greetstay module 
+ */
+    public String greetstay() {
+        return "Hello " + name + "!";
+    }
+	
+	
 }
