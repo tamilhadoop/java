@@ -15,12 +15,4 @@ public class ExtendedGreetingService implements GreetingService {
     public String greet() {
         return "Hello " + name + "!";
     }
-	
-/**
- * Feature branch-2 JIRA ID -Fea02.
- */
-    public String meetgreet() {
-        return "Hello " + name + "!";
-    }
-	
 }
